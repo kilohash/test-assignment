@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="com.blueworkslive.test" verbose="1">
+
+    <test name="Test Assignment">
+        <classes>
+            <class name="com.project.ui_tests.CreateAccount"/>
+            <class name="com.project.ui_tests.Login"/>
+            <class name="com.project.ui_tests.NavigateTabs"/>
+        </classes>
+    </test>
+</suite>
